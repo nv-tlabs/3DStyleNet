@@ -1,0 +1,7 @@
+@inproceedings{yin2021_3DStyleNet,
+    title = {3DStyleNet: Creating 3D Shapes with Geometric and Texture Style Variations}, 
+    author = {Kangxue Yin and Jun Gao and Maria Shugrina and Sameh Khamis and Sanja Fidler},
+              booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+              year = {2021}
+}
+
