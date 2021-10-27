@@ -336,8 +336,28 @@ figure {
             </p>
         </figure>
         
+        <br/>
+        <hr>
+        <figure style="width: 100%;">    
+            <a href="assets/interpolate.png">
+                <img width="100%" src="assets/interpolate.png">
+            </a>        
+            <video class="centered" width="100%" controls muted loop autoplay>
+                <source src="assets/interpolation.mp4" type="video/mp4">
+            </video>
+            <p class="caption"> Our method supports <strong>linear shape interpolation</strong> between the source shape and the stylized output:  
+            for geometry, we linearly interpolate the vertex displacements produced by the part-ware affine transformation. 
+            For the texture, we linearly interpolate the vgg features and decode them to get the interpolated texture images.  The interpolation is fast and can be done in <strong>real-time</strong>.
+            </p>
+        </figure>
+
 
     </section>
+    
+    
+    
+    
+    
     
     <section id="results">
         <h2>3D Data Augmentation</h2>
@@ -370,6 +390,8 @@ figure {
     
     
 
+
+
     <section id="bibtex">
         <h2>Citation</h2>
         <hr>
@@ -382,6 +404,7 @@ figure {
 </code></pre>
     </section>
 
+<br />
     
     <section id="paper">
         <h2>Paper</h2>
